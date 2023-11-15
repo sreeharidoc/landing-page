@@ -1,0 +1,29 @@
+.header{
+    display: flex;
+    background-color: #1F2937;
+    margin:0;
+    padding: 0;
+}
+
+.logo{
+    align-items: center;
+    font-size:24px;
+    color:  #F9FAF8;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    gap : 16px;
+}
+
+.right{
+    align-items: flex-end;
+    justify-content: center;
+}
+
+a{
+    text-decoration: none;
+    color: #E5E7EB;
+    font-size: 18px;
+}
