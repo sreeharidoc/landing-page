@@ -6,7 +6,8 @@ body{
 .header{
     display: flex;
     background-color: #1F2937;
-    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
 }
 
 .first{
@@ -42,8 +43,12 @@ a{
 
 .second{
     display: flex;
-    flex-direction: column;
+    background-color: #1F2937;
     position: relative;
+    justify-content: space-evenly;
+    align-items: center;
+    flex: 2 1;
+    padding-left: 105px;
 }
 
 .Hero-main-text{
@@ -65,3 +70,104 @@ button{
     margin:2;
 }
 
+.main-image{
+    height: 250px;
+    width: 500px;
+}
+
+.second-left{
+    padding: 30px;
+
+}
+
+.second-right{
+    padding: 30px;
+}
+
+.third{
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+}
+
+.third-first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.third-second{
+    display: flex;
+    margin: 5px;
+    align-items:center;
+    justify-content: space-evenly;
+}
+.third-images-first{
+    display: flex;
+    flex-direction: column;
+    height: 200px;
+    width: 200px;
+}
+
+.image-border{
+    border:3px solid #3882F6 ;
+}
+
+.fourth{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #E5E7EB;
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    font-style: italic;
+    padding: 20px;
+    padding-left: 40px;
+}
+
+.hero-quote{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.fifth{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5%;
+}
+.fifth-inside{
+    display: flex;
+    background-color: #3882F6;
+    color: #F9FAF8;
+    padding: 20px;
+    border-radius: 10px;
+    width: 700px;
+    height: 100px;
+}
+
+.fifth-first{
+    font-weight: bold;
+}
+
+.fifth-right{
+    justify-content: center;
+    align-items: flex-start;
+    padding: 30px;
+}
+
+.fifth-button{
+    border-color: #E5E7EB;
+    border-radius: 2px;
+    width: 100px;
+    height: 30px;
+}
+
+.footer{
+    display: flex;
+    background-color: #1F2937;
+    color: #E5E7EB;
+    align-items: center;
+    justify-content: center;
+}
